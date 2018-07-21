@@ -1,7 +1,7 @@
 JAVA Collection API Examples
 =====
 
-This demo shows how to use JAVA collection api
+This demo shows how to use JAVA collection api and 2d Array
 
 Collection API has 3 interfaces and their concrete implementation is also available in Collection API.
 
@@ -15,7 +15,7 @@ List in Java provides ordered and indexed collection which may contain duplicate
 
 ***Properties***
 
-1) May contains duplicate
+1) May contain duplicate
 2) maintains insertion order or element
 3) The list allows null elements and you can have many null objects in a List because it also allowed duplicates
 

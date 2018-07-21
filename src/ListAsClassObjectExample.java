@@ -6,7 +6,7 @@ import java.util.List;
 
 public class ListAsClassObjectExample {
 	
-	public static void listAsClassObjectExample(String[] args) {
+	public static void listAsClassObjectExample() {
 		
 		List<Student> list = new ArrayList<Student>();
 		
@@ -18,7 +18,7 @@ public class ListAsClassObjectExample {
 		Iterator<Student> iterator = list.iterator();
 		
 		// iterate with object all values together 
-		System.out.println(" ### iterate with object all values together  ");
+		System.out.println(" ### iterate with object all values together ");
 		for(int i=0;i<list.size();i++) {
 			System.out.println(iterator.next());
 		}

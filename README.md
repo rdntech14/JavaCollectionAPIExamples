@@ -22,6 +22,7 @@ List in Java provides ordered and indexed collection which may contain duplicate
 ***List implementation*** --> ArrayList, LinkedList, Vector
 
 ArrayList is more general purpose and provides random access with index, 
+ArrayList<String> aList = new ArrayList<String>(); //this creates a array size of 10 
 
 LinkedList is more suitable for frequently adding and removing elements from List. 
 
@@ -47,6 +48,7 @@ TreeSet keeps elements in a sorted order specified by compare() or compareTo() m
 ***Map***
 
 Map provides a data structure based on key-value pair and hashing. 
+Note: Creates 16 buckets, find out index using hascode method (index = hashCode(key) & (n-1).), create a node with 4 size, first holds hascode, 2 - key, 3 - value, 4- null or address for next node.
 
 ***Properties***
 
